@@ -24,13 +24,13 @@
 * 사용 방법
   * admin bastion host
     * 전체 서버로 동기화
-     * ex) sh syncuser.sh live
+      * ex) sh syncuser.sh live
 
   * developer bastion
-   * 특정 어카운트 동기화
-     * ex) sh 스크립트.sh 환경, 어카운트, “사용자1|사용자2”
-     * ex) sh syncuser.sh stg account_name "user1|user2"
-     * ex) sh syncuser.sh dev account_name "user1|user2"
+    * 특정 어카운트 동기화
+      * ex) sh 스크립트.sh 환경, 어카운트, “사용자1|사용자2”
+      * ex) sh syncuser.sh stg account_name "user1|user2"
+      * ex) sh syncuser.sh dev account_name "user1|user2"
 
  
 * 스크립트 암호화
